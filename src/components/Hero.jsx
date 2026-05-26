@@ -1,9 +1,7 @@
-import { Navbar } from "./Navbar"
-
- export const Home =()=>{
-    return(<>
-     <Navbar/>
-     <section className="min-h-screen bg-gray-950 text-white flex items-center">
+export const Hero = () =>{
+    return (
+        <>
+   <section className="min-h-screen bg-gray-950 text-white flex items-center">
         <div className="max-w-7xl mx-auto px-6 py-20 w-full grid md: grid-cols-2 items-center gar-12">
         
         <div className="text-blue-500 font-semibold mb-4"
@@ -42,5 +40,6 @@ import { Navbar } from "./Navbar"
        
 
      </section>
-    </>)
- }
+        </>
+    )
+}
