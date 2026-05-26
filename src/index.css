@@ -1,4 +1,7 @@
-:root {
+
+
+@import "tailwindcss";
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -68,4 +71,4 @@ body {
 
 
 
-
+ */

@@ -1,9 +1,11 @@
-import { Link } from "react-router"
+import { Navbar } from "./Navbar"
+
 
 export const Projects = ()=>{
     return (
         <>
-         <Link to="/projects">Project</Link>
+        <Navbar/>
+         <div> projects page</div>
         </>
     )
 }

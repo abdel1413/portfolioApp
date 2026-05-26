@@ -1,7 +1,11 @@
-import { Link } from "react-router"
+import { Navbar } from "./Navbar"
+
 
 export const About =()=>{
-    return(<>
-       <Link to="/about">About</Link>
-    </>)
+    return(
+    <>
+        <Navbar/>
+       <div>About page</div>
+    </>
+    )
 }

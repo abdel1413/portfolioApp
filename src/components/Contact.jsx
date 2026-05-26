@@ -1,8 +1,9 @@
-import { Link } from "react-router"
+import { Navbar } from "./Navbar"
+
 
 export const Contact =()=>{
     return (<>
-
-    <Link to='/contact'>Contact</Link>
+   <Navbar/>
+   <div>Contact page</div>
         </>)
 }
