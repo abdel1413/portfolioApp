@@ -2,14 +2,25 @@ import { } from 'react'
 
 
 import './App.css'
+import { Routes,Route } from 'react-router-dom'
+import { Home } from './components/Home'
+import { About } from './components/About'
+import { Contact } from './components/Contact'
+import { Projects } from './components/Projects'
+
 
 function App() {
 
 
   return (
-   <>
-   <h1>Home page</h1>
-   </>
+    
+   <Routes>
+    <Route index element={<Home/>} />
+    <Route path='/about' element={<About/>}/>
+    <Route path='/project' element={<Projects/>}/>
+    <Route  path='/contact' element={<Contact/>}/>
+   </Routes>
+  
   )
 }
 
