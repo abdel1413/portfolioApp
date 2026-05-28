@@ -4,9 +4,12 @@
 export const Contact =()=>{
     return (<>
    {/* <Navbar/> */}
-   <section id='section'>
-    <h1>347-518-2522</h1>
-    <p> email: ab@gmail.com</p>
+   <section className="min-h-screen scroll-mt-24" id='contact'>
+    <div>
+
+    <h1 >347-518-2522</h1>
+    <p > email: ab@gmail.com</p>
+    </div>
     
    </section>
         </>)
