@@ -1,7 +1,7 @@
 export const Footer =()=> {
     return (
         <>
-        <div>Footer page</div>
+        <section id="footer">Footer page</section>
         </>
     )
 }
