@@ -1,3 +1,4 @@
+ import profile from '../assets/profiles/profile.jpeg'
 export const Hero = () => {
   return (
     <section className="min-h-screen bg-gray-950 text-white flex items-center" id="hero">
@@ -102,7 +103,7 @@ export const Hero = () => {
               font-bold
               text-blue-400
             ">
-              AT
+              <img src={profile} alt="avatar" className="w-full h-full object-cover rounded-full" />
             </div>
 
           </div>
