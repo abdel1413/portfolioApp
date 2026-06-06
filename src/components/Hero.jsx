@@ -103,7 +103,7 @@ export const Hero = () => {
               font-bold
               text-blue-400
             ">
-              <img src={profile} alt="avatar" className="w-full h-full object-cover rounded-full" />
+              <img src={profile} alt="avatar" className="w-90 h-90 object-cover rounded-full bg-blue-500/20" />
             </div>
 
           </div>
