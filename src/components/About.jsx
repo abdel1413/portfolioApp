@@ -5,40 +5,65 @@ export const About =()=>{
     return(
     <>
 
-     <section id="about"   className="max-w-7xl mx-auto px-6 py-24">
-        <h2 className="text-4xl font-bold mb-8"> About Me</h2>
-        <p className="text-gray-300 leading relaxed max-w-3xl">
-             I build responsive and user-friendly web applications
-              using React, JavaScript, and Tailwind CSS.
-        </p>
-        <h1>Bio</h1>
-        <p>Computer Science Student | Seeking Internship or Entry 
-            level position In full Stack Developer | Html, CSS, PHP, javaScript,Mysql, PostgreSQL,
-             jQuery,MongoDb, Sass, tailwing css | Graduating in 2025.</p>
+    <section id="about" className="bg-[#1f1f1f] text-white py-20">
+  <div className="max-w-6xl mx-auto px-4">
 
-             <div>
-                <h1>2024-2025</h1>
-                <h2>Student at Lehman College</h2>
-                <h4>Computer Science</h4>
-                <h3>Relevant Course</h3>
-                <p>Web Development, Operating Systems, Intro to Networking, Data Structures and Algorithms, Programming Methods I-II, Computer Organization, Calculus I-III, Databases Systems, Cyber Security</p>
-             </div>
-             <div>
-                <h1>date start-end date</h1>
-                <h2>Internship</h2>
-                <h4>company</h4>
-                <p>InternShip
-                    BSG Global
-                    Worked with a 3-person team designed and built a mentorship mobile app using React Native, HTML, CSS, Node.Js and Expo. Reached a user base of 30+ individuals. Built the login/logout functions, 7+ questionnaires pages and dashboard displaying a list of available mentors and user profile page where the client can read the mentor’s background, Integrated with stripes for rapid payment processing within 10 seconds SLA and securely store user data using Google firebase AES-256 encryption</p>
-             </div>
-             <div>
-                <h1>date started -date ended</h1>
-                <h4>first app</h4>
-                 <p>fulls stack
-                    Crafted a class registration app using JavaScript, HTML, CSS. Created functional links which display normals, required and advanced classes along with their credits. Created a hidden pop-up modal represented by plus sign (+) whose function is to show the instructor name and the prerequisites for that class when clicked on. Design a login/logout system and also provide a shopping cart UI where the client can select and drop classes for registration. Leverage MySQL using node.js and express collecting and securely saving user data</p>
-             </div>
-             
-     </section>
+    <h2 className="text-5xl font-bold text-center text-orange-400 mb-12">
+      About Me
+    </h2>
+
+    <div className="space-y-10">
+
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+        <h3 className="text-4xl text-orange-400 mb-3">
+          2023 - Present
+        </h3>
+
+        <h4 className="text-2xl font-semibold">
+          Computer Science Student
+        </h4>
+
+        <p className="mt-4 text-gray-300">
+          Studying Computer Science at Lehman College
+          with coursework in Web Development,
+          Data Structures, Operating Systems,
+          Databases, Networking and Cybersecurity.
+        </p>
+      </div>
+
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+        <h3 className="text-4xl text-orange-400 mb-3">
+          2024 - 2025
+        </h3>
+
+        <h4 className="text-2xl font-semibold">
+          Software Engineering Intern
+        </h4>
+
+        <p className="mt-4 text-gray-300">
+          Worked on a mentorship platform using
+          React Native, Node.js, Firebase and Expo,
+          building authentication, user profiles,
+          dashboards and payment integration.
+        </p>
+      </div>
+
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+        <h3 className="text-4xl text-orange-400 mb-3">
+          Full Stack Projects
+        </h3>
+
+        <p className="mt-4 text-gray-300">
+          Built multiple projects including
+          Enrollment Systems, E-Commerce Stores,
+          Weather Apps, Giphy Search, Wikipedia Search
+          and React-based applications.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       
     </>

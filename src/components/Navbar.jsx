@@ -2,9 +2,9 @@
 
 
 export const Navbar=()=>{
-    return (<nav className=" fixed top-0 left-0 bg-gray-950/80 text-white z-50 w-full " id='navbar'>
+    return (
+    <nav className=" fixed top-0 left-0 bg-gray-950/80 text-white z-50 w-full  flex  " id='navbar'>
          <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
             <a href= "#hero" className="text-2xl font-bold text-blue-500">AT</a>
          </div>
          <div className="hidden md:flex items-center gap-8 py-4">
