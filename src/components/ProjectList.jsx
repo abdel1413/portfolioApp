@@ -11,6 +11,7 @@ import songLogo from "../assets/projects/songLogo.png";
 import wikipediaSearch from "../assets/projects/wikipedia.jpeg";
 import fruitSearch from "../assets/projects/fruitSearch.jpeg";
 import cashRegister from "../assets/projects/cashRegister.jpeg";
+import AmazonStore from "../assets/projects/amazonLogo.png"; 
 
 
 export const ProjectList = () => {
@@ -135,9 +136,19 @@ return [
   demo: "https://fruit-search-app-drab.vercel.app/",
   tech: ["React", "tailwindcss", "CSS"],
 },
-
 {
   id: 12,
+  title: "amazon clone",
+  image: AmazonStore,
+  description:
+  "A scalable Amazon-style e-commerce clone built with vanilla JavaScript, featuring dynamic product rendering, live search filtering, and a fully interactive shopping cart system. The app uses modular architecture with a custom cart class and API-driven product data, delivering a smooth, real-world shopping experience with responsive UI updates and clean separation of concerns.",
+  github: "https://github.com/abdel1413/amazon-project-js.git",
+  demo: "https://amazon-project-js-kappa.vercel.app//",
+  tech: ["JavaScript", "HTML5", "CSS", "API"],
+},
+
+{
+  id: 13,
   title: "Robot Friends",
   image: robot,
   description:
