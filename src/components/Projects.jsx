@@ -35,7 +35,7 @@ export const Projects = ()=>{
           and modern web development tools.
         </p>
 
-        <div className="grid grid-cols-3 md:grid-cols-3 xl:grid-cols-4 gap-4 w-full px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 w-full px-4">
           {displayedProjects.map((project) => (
             <div
               key={project.id}
@@ -44,7 +44,7 @@ export const Projects = ()=>{
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-50 rounded-lg object-cover mx-auto mt-4 "
+                className="w-full h-50 rounded-lg object-cover mx-auto mt-4 p-2 "
               />
 
               <div className="p-3 ">
@@ -53,7 +53,7 @@ export const Projects = ()=>{
                 </h2>
                  <div className="relative group">
 
-                <p className="text-gray-300 text-sm mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
+                <p className="text-gray-300 text-sm mb-4 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
                   {project.description}
                 </p>
                  </div>
