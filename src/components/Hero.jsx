@@ -49,8 +49,7 @@ export const Hero = () => {
 
           {/* BUTTONS */}
           <div className="flex gap-4 flex-wrap">
-
-            <button className="
+             <a href="#projects" className="
               bg-blue-500
               hover:bg-blue-600
               px-6
@@ -60,9 +59,9 @@ export const Hero = () => {
               transition
             ">
               View Projects
-            </button>
+            </a>
 
-            <button className="
+            <a href="#contact" className="
               border
               border-gray-600
               hover:border-blue-500
@@ -74,7 +73,8 @@ export const Hero = () => {
               transition
             ">
               Contact Me
-            </button>
+            </a>
+           
 
           </div>
 
