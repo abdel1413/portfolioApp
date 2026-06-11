@@ -1,6 +1,6 @@
 // import { Navbar } from "./Navbar"
 
-import { FaPhone, FaEnvelope, FaLinkedin,FaGithub, FaTwitter, FaFacebook, FaPen, FaInstagram} from "react-icons/fa6"
+import { FaPhone, FaEnvelope, FaLinkedin,FaGithub, FaXTwitter, FaFacebook, FaPen, FaInstagram} from "react-icons/fa6"
 
 
 export const Contact =()=>{
@@ -42,20 +42,20 @@ export const Contact =()=>{
                  </div>
             </div>
              <div className="flex items-center gap-4 justify-center mt-8">
-                <a href="https://github.com/aboulayet63" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/abdel1413" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-3xl hover:text-blue-500 transition duration-500 "/>
                     
                 </a>
                 <a href="https://twitter.com/aboulayet63" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter className="text-3xl hover:text-blue-500 transition duration-500"/>
+                    <FaXTwitter className="text-3xl hover:text-blue-500 transition duration-500"/>
                 </a>
-                <a href="https://www.facebook.com/aboulayet63" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/aboulaye.tchakoura/" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="text-3xl hover:text-blue-500 transition duration-500"/>  
                 </a>
-                <a href="https://www.linkedin.com/in/aboulaye-tchakoura-9b1a4b1b3/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/aboulaye-tchakoura/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-3xl hover:text-blue-500 transition duration-500"/>
                 </a>
-                    <a href="https://www.instagram.com/aboulayet63/" target="_blank" rel="noopener noreferrer"> 
+                    <a href="https://www.instagram.com/gounio/" target="_blank" rel="noopener noreferrer"> 
                 <FaInstagram className="text-3xl hover:text-blue-500 transition duration-500"/>
                 </a>
              </div>
