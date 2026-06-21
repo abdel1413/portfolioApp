@@ -15,6 +15,13 @@ export const About =()=>{
     <div className="space-y-10">
 
       <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+       
+        <p className="mt-4 text-gray-300">
+         Computer Science student with experience building full-stack applications using React, Node.js, and SQL.
+          Interested in frontend and full-stack development opportunities.
+        </p>
+      </div>
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
           2023 - Present
         </h3>

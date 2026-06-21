@@ -42,21 +42,22 @@ export const Hero = () => {
             max-w-xl
             mb-8
           ">
-            I build modern, responsive, and user-friendly
-            web applications using React, Tailwind CSS,
-            and JavaScript.
+            I am a computer science student, passionate about creating responsive, and user-friendly
+            full-stack web applications using React, Node.js, tailwindcss,
+            and JavaScript...
           </p>
 
           {/* BUTTONS */}
           <div className="flex gap-4 flex-wrap">
              <a href="#projects" className="
               bg-blue-500
-              hover:bg-blue-600
+              text-white
+              hover:bg-blue-600 text-orange-400  transition duration-500
               px-6
-              py-3
+              py-3 
               rounded-lg
               font-medium
-              transition
+             
             ">
               View Projects
             </a>
@@ -65,12 +66,12 @@ export const Hero = () => {
               border
               border-gray-600
               hover:border-blue-500
-              hover:text-blue-400
+              hover:text-orange-400  transition duration-500
               px-6
               py-3
               rounded-lg
               font-medium
-              transition
+             
             ">
               Contact Me
             </a>
