@@ -1,4 +1,4 @@
- import profile from '../assets/profiles/profile.jpeg'
+ import profile from '../assets/profiles/profile.png'
 export const Hero = () => {
   return (
     <section className="min-h-screen bg-gray-950 text-white flex items-center" id="hero">
@@ -19,7 +19,7 @@ export const Hero = () => {
         <div>
 
           <p className="text-blue-500 font-semibold mb-4">
-            Frontend Developer
+          Full-Stack Developer
           </p>
 
           <h1 className="
@@ -42,9 +42,8 @@ export const Hero = () => {
             max-w-xl
             mb-8
           ">
-            I am a computer science student, passionate about creating responsive, and user-friendly
-            full-stack web applications using React, Node.js, tailwindcss,
-            and JavaScript...
+           I'm a Computer Science graduate and full-stack developer who enjoys building responsive, user-friendly applications with React, Node.js, and PostgreSQL. I love solving real-world problems and turning ideas into working products.
+           
           </p>
 
           {/* BUTTONS */}
@@ -85,14 +84,12 @@ export const Hero = () => {
         <div className="flex justify-center">
 
           <div className="
-            w-72
-            h-72
-            md:w-96
-            md:h-96
+            w-64
+            h-64
+            md:w-[350px]
+            md:h-[350px]
             rounded-full
             bg-blue-500/20
-            border
-            border-blue-500/30
             flex
             items-center
             justify-center
@@ -104,7 +101,7 @@ export const Hero = () => {
               font-bold
               text-blue-400
             ">
-              <img src={profile} alt="avatar" className="w-90 h-90 object-cover rounded-full bg-blue-500/20" />
+              <img src={profile} alt="avatar" className="object-cover rounded-full bg-blue-500/20" />
             </div>
 
           </div>
