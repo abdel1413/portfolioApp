@@ -1,4 +1,4 @@
-import { Navbar } from "./Navbar"
+
 import { useState,useRef } from "react";
 import { ProjectList } from "./ProjectList"
 
@@ -23,7 +23,7 @@ export const Projects = ()=>{
       id="projects"
       className=" bg-gray-900 text-white py-8 mb-0"
     >
-      <Navbar />
+     
 
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-1">

@@ -1,5 +1,9 @@
 
+import { useState } from "react";
 export const Navbar = () => {
+   const [isOpen, setIsOpen] = useState(false);
+
+
   return (
     <nav
       className="fixed top-0 left-0 w-full bg-gray-950/95 backdrop-blur-md text-white z-50"
@@ -33,7 +37,26 @@ export const Navbar = () => {
             CONTACT
           </a>
         </div>
+      
+        <button
+        type="button"
+        className="lg:hidden text-3xl text-wite "
+        onClick={() => setIsOpen(prev => !prev)}>
+              { isOpen ? '✕' : '☰' }
+          </button>
       </div>
+      {isOpen &&(
+         <div className="lg:hidden flex flex-col  gap-4 px-6">
+         <a href="#about" onClick={() => setIsOpen(false)}>
+            ABOUT
+          </a>
+          <a href="#projects" onClick={() => setIsOpen(false)}>
+            PROJECTS
+          </a>
+          <a href="#contact" onClick={() => setIsOpen(false)}>
+            CONTACT
+          </a>
+        </div>)}
     </nav>
   );
 };

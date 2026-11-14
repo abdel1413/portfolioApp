@@ -11,7 +11,6 @@ import { Projects } from "../components/Projects"
      <Navbar/>
      <Hero />
      <About/>
-   
      <Projects/>
      <Contact/>
 

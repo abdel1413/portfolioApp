@@ -1,11 +1,11 @@
-// import { Navbar } from "./Navbar"
+
 
 import { FaPhone, FaEnvelope, FaLinkedin,FaGithub, FaXTwitter, FaFacebook, FaPen, FaInstagram} from "react-icons/fa6"
 
 
 export const Contact =()=>{
     return (<>
-   {/* <Navbar/> */}
+ 
    <section className="min-h-screen scroll-mt-24 flex flex-col items-center justify-center" id='contact'>
    
      <div>
