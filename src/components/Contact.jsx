@@ -6,7 +6,7 @@ import { FaPhone, FaEnvelope, FaLinkedin,FaGithub, FaXTwitter, FaFacebook, FaPen
 export const Contact =()=>{
     return (<>
  
-   <section className="min-h-screen scroll-mt-24 flex flex-col items-center justify-center" id='contact'>
+   <section className="min-h-0 py-8 scroll-mt-24 flex flex-col items-center justify-center" id='contact'>
    
      <div>
         <h1 className="text-3xl font-bold text-center mb-1">Contact Me</h1>
@@ -18,7 +18,7 @@ export const Contact =()=>{
      </div>
      
        
-            <div className="flex items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <div className="flex flex-col items-start  mb-0">
 
               <span className="text-lg font-bold text-blue-500 flex"> 

@@ -5,6 +5,7 @@ import { ProjectList } from "./ProjectList"
 export const Projects = ()=>{
   
     const [showAll, setShowAll] = useState(false);
+    const [expandedProject, setExpandedProject] = useState(null);
     const sectionRef=useRef(null);
 
    const displayedProjects = showAll ? ProjectList() : ProjectList().slice(0, 8);
@@ -53,9 +54,16 @@ export const Projects = ()=>{
                 </h2>
                  <div className="relative group">
 
-                <p className="text-gray-300 text-sm mb-4 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                <p className={`text-gray-300 text-sm mb-1 ${expandedProject === project.id ? 'line-clamp-none' : 'line-clamp-2'}  transition-all duration-500`}>
                   {project.description}
                 </p>
+           
+                <button
+                 type="button"
+                  className="text-blue-500 text-sm hover:underline focus:outline-none mb-2 font-medium"
+                  onClick={() => setExpandedProject(expandedProject === project.id ? null : project.id)}
+                > {expandedProject === project.id ? 'Show Less' : 'Read More'}
+                </button>
                  </div>
 
                 <div className="flex flex-wrap gap-2 mb-5">

@@ -1,13 +1,14 @@
  import profile from '../assets/profiles/profile.png'
 export const Hero = () => {
   return (
-    <section className="min-h-screen bg-gray-950 text-white flex items-center" id="hero">
+    <section className="min-h-[85vh] bg-gray-950 text-white flex items-center" id="hero">
 
       <div className="
         max-w-7xl
         mx-auto
         px-6
-        py-20
+        py-12
+        lg:py-12
         w-full
         grid
         md:grid-cols-2
@@ -24,7 +25,8 @@ export const Hero = () => {
 
           <h1 className="
             text-5xl
-            md:text-7xl
+            md:text-5xl
+            lg:text-7xl
             font-bold
             leading-tight
             mb-6

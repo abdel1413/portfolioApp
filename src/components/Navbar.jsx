@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full bg-gray-950/95 backdrop-blur-md text-white z-50"
+      className="sticky top-0 left-0 w-full bg-gray-950/95 backdrop-blur-md text-white z-50"
       id="navbar"
     >
       <div className="w-full max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
@@ -46,7 +46,7 @@ export const Navbar = () => {
           </button>
       </div>
       {isOpen &&(
-         <div className="lg:hidden flex flex-col  gap-4 px-6">
+         <div className="lg:hidden flex flex-col  gap-4 px-6 py-4">
          <a href="#about" onClick={() => setIsOpen(false)}>
             ABOUT
           </a>
