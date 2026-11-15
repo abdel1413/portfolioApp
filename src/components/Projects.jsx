@@ -60,7 +60,7 @@ export const Projects = ()=>{
            
                 <button
                  type="button"
-                  className="text-blue-500 text-sm hover:underline focus:outline-none mb-2 font-medium"
+                  className="text-blue-500 text-sm hover:underline focus:outline-none mb-2 font-semibold hover:decoration-white"
                   onClick={() => setExpandedProject(expandedProject === project.id ? null : project.id)}
                 > {expandedProject === project.id ? 'Show Less' : 'Read More'}
                 </button>
