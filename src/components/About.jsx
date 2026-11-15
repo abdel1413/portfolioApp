@@ -1,4 +1,4 @@
-//import { Navbar } from "./Navbar"
+
 
 
 export const About =()=>{
@@ -15,15 +15,40 @@ export const About =()=>{
     <div className="space-y-10">
 
       <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
-       
+        <h3 className="text-4xl text-orange-400 mb-3">
+           2026- present
+        </h3>
         <p className="mt-4 text-gray-300">
-         Computer Science student with experience building full-stack applications using React, Node.js, and SQL.
-          Interested in frontend and full-stack development opportunities.
+         I'm a Computer Science graduate and full-stack developer with
+          experience building responsive web applications using React, 
+          JavaScript, Node.js, Express, and PostgreSQL.
+
         </p>
       </div>
       <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
-          2023 - Present
+          2024 - 2025
+        </h3>
+
+        <h4 className="text-2xl font-semibold">
+          Software Engineering Intern
+        </h4>
+
+        <p className="mt-4 text-gray-300">
+          
+During my internship, I collaborated with a
+ team to develop a mentorship platform. I've also built personal projects, 
+ including a Job Application Tracker with a full-stack architecture.
+
+I enjoy solving problems, learning new technologies,
+ and building applications that make everyday tasks 
+ easier. I'm currently seeking an opportunity to grow as a software engineer
+  and contribute to meaningful projects.
+        </p>
+      </div>
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+        <h3 className="text-4xl text-orange-400 mb-3">
+          2023 - 2026
         </h3>
 
         <h4 className="text-2xl font-semibold">
@@ -38,22 +63,7 @@ export const About =()=>{
         </p>
       </div>
 
-      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
-        <h3 className="text-4xl text-orange-400 mb-3">
-          2024 - 2025
-        </h3>
-
-        <h4 className="text-2xl font-semibold">
-          Software Engineering Intern
-        </h4>
-
-        <p className="mt-4 text-gray-300">
-          Worked on a mentorship platform using
-          React Native, Node.js, Firebase and Expo,
-          building authentication, user profiles,
-          dashboards and payment integration.
-        </p>
-      </div>
+      
 
       <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
