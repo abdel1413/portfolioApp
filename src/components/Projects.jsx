@@ -22,7 +22,7 @@ export const Projects = ()=>{
     return (
          <section ref={sectionRef}
       id="projects"
-      className=" bg-gray-900 text-white py-8 mb-0"
+      className=" bg-gray-900 text-white py-8 mb-0 scroll-mt-15"
     >
      
 

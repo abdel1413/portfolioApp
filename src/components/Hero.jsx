@@ -1,7 +1,7 @@
  import profile from '../assets/profiles/profile.png'
 export const Hero = () => {
   return (
-    <section className="min-h-[85vh] bg-gray-950 text-white flex items-center" id="hero">
+    <section className="min-h-[calc(100vh-64px)] bg-gray-950 text-white flex items-center" id="hero">
 
       <div className="
         max-w-7xl
