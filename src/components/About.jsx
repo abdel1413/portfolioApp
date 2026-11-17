@@ -5,27 +5,25 @@ export const About =()=>{
     return(
     <>
 
-    <section id="about" className="bg-[#1f1f1f] text-white py-20">
+    <section id="about" className="bg-[#1f1f1f] text-white py-10 scroll-mt-20">
   <div className="max-w-6xl mx-auto px-4">
 
-    <h2 className="text-5xl font-bold text-center text-orange-400 mb-12">
+    <h2 className="text-5xl font-bold text-center text-orange-400 mb-5">
       About Me
     </h2>
 
     <div className="space-y-10">
 
-      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-6 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
            2026- present
         </h3>
+        <h1 className="text-2xl font-bold">Full-Stack Developer</h1>
         <p className="mt-4 text-gray-300">
-         I'm a Computer Science graduate and full-stack developer with
-          experience building responsive web applications using React, 
-          JavaScript, Node.js, Express, and PostgreSQL.
-
+        I'm a Computer Science graduate and full-stack developer with experience building responsive web applications using React, JavaScript, Node.js, Express, and PostgreSQL. I enjoy developing practical solutions, improving my technical skills, and building applications that solve real-world problems.
         </p>
       </div>
-      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-6 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
           2024 - 2025
         </h3>
@@ -36,17 +34,10 @@ export const About =()=>{
 
         <p className="mt-4 text-gray-300">
           
-During my internship, I collaborated with a
- team to develop a mentorship platform. I've also built personal projects, 
- including a Job Application Tracker with a full-stack architecture.
-
-I enjoy solving problems, learning new technologies,
- and building applications that make everyday tasks 
- easier. I'm currently seeking an opportunity to grow as a software engineer
-  and contribute to meaningful projects.
+           During my internship at BSG Global, I collaborated with a development team to build a mentorship platform. I contributed to frontend development, helped troubleshoot technical challenges, and continued working on the project voluntarily after my internship ended.
         </p>
       </div>
-      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-6 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
           2023 - 2026
         </h3>
@@ -65,7 +56,7 @@ I enjoy solving problems, learning new technologies,
 
       
 
-      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-8 text-center">
+      <div className="bg-[#3d3d3d] border-b-4 border-orange-400 p-6 text-center">
         <h3 className="text-4xl text-orange-400 mb-3">
           Full Stack Projects
         </h3>

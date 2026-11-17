@@ -26,7 +26,7 @@ export const Navbar = () => {
             PROJECTS
           </a>
           <a
-            href="/AboulayeTchakoura__.pdf"
+            href="/Aboulaye_Tchakoura__.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-300 hover:text-orange-400"
