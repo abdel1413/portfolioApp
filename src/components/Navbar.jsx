@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="w-full max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
 
         <a
-          href="#home"
+          href="#hero"
           className="text-2xl font-bold text-blue-500 whitespace-nowrap"
         >
           Aboulaye.dev
